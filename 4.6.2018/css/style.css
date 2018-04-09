@@ -1,0 +1,125 @@
+/* CSS Document */
+.back {
+width: 100%;
+height: 100%;
+	background-image: url(../images/background.png);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+ }
+.bottom{
+	  width: 170px;
+	  height: 50px;
+	  background-color:	#00bfff;
+	  position: fixed;
+	  bottom: 20px;
+	  right: 40px;
+	  border-radius: 25px;
+	  border: 2px;
+  }
+
+  #bottom i{
+	  bottom: 20px;
+	  right: 100px;
+	  position: fixed;
+	  background-size: 20px;
+	  
+  }
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; }
+  
+#loginform { padding-top:18px; }
+  
+    #loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#usermsg {
+	height: 40px;
+	width:395px;
+}
+  
+#submit {
+	width: 60px;
+}
+
+
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+#menu p{
+  	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Indie Flower', cursive;
+}
+#menu{
+	background-color: green;
+
+}
+#menu .exit{
+	background-size: cover;
+	float:right;
+}
+#menu, p{
+	text-align: center;
+}
+
+#chatbox p{
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Indie Flower', cursive;
+}
+#supporter1{
+	background-image: url(../images/supporter.png);
+	background-size: cover;
+	border-radius: 160px;
+	border: 2px;
+    padding: 20px;
+    width: 40px;
+	height: 35px;
+	float: left;
+}
+#supporter1, p{
+	float: left;
+}
+#supporter2 {
+	border-radius: 160px;
+	background-image: url(../images/customer.png);
+	background-size: cover;
+    border: 2px;
+    padding: 20px;
+    width: 40px;
+	height: 35px;
+	float: right;
+	margin-top: 70px;
+
+}
+.msgln { margin:0 0 2px 0; }
+.contain{
+	display: none;
+}
+
+
